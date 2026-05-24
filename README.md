@@ -11,3 +11,5 @@ For secure access to your network from the outside, use MESHNET. (With NordVPN m
 Actually you need this setup twice. One for your computer network and one for your phone to keep them networks separated.
 
 Watch out for trojans, do your checksums on your downloads. Keep the repositories safe!
+
+Use killswitch enabled in your VPN app on the linux vpn machine to disable non vpn traffic.
