@@ -14,6 +14,6 @@ Watch out for trojans, do your checksums on your downloads. Keep the repositorie
 
 Use killswitch enabled in your VPN app on the linux vpn machine to disable non vpn traffic. No VPN , no Internet. 
 
-Use VPN for 4G!
+Use VPN for 4G on your phone! 
 
 Protect your privacy!
