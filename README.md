@@ -13,3 +13,5 @@ Actually you need this setup twice. One for your computer network and one for yo
 Watch out for trojans, do your checksums on your downloads. Keep the repositories safe!
 
 Use killswitch enabled in your VPN app on the linux vpn machine to disable non vpn traffic. No VPN , no Internet. Protect your privacy!
+
+Use VPN for 4G!
