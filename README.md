@@ -4,7 +4,7 @@
 
 Upnp must be disabled on the router. No external open ports on the linux gateway!!
 
-For secure access to your network from the outside, use MESHNET. (meshnet breaks the linux gateway to the lan so you must use that one a different machine on the lan. With ssh-tunneling you can access all your hardware on your lan.
+For secure access to your network from the outside, use MESHNET. (With NordVPN meshnet breaks the linux gateway to the lan (it's a bug) so you must use MESHNET on a different machine on the lan. With ssh-tunneling you can access all your hardware on your lan.
 
 Actually you need this setup twice. One for your internet network and one for you phone to keep them separated.
 
