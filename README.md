@@ -23,3 +23,5 @@ You can't put personal pictures or videos online anymore. AI can create scenario
 Only one hacker with AI that has access to Facebook, Instagram, Microsoft or Apple can destory every accounts' life forever!
 
 Protect your privacy! The invention of AI broke the Internet.
+
+Maybe the world is better off without network cards. Back to buying DVDs.
