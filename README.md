@@ -20,4 +20,6 @@ To all software developers: Put your software checksums online!
 
 You can't put personal pictures or videos online anymore. AI can create scenarios out of context with them.
 
+Only one hacker with AI that has access to Facebook, Instagram, Microsoft or Apple can destory every accounts' life forever!
+
 Protect your privacy!
