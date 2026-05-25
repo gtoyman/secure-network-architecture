@@ -18,4 +18,6 @@ Use VPN for 4G on your phone!
 
 To all software developers: Put your software checksums online!
 
+You can't put personal pictures or videos online anymore. AI can create scenarios out of context with them.
+
 Protect your privacy!
