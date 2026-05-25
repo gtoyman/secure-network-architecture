@@ -16,4 +16,6 @@ Use killswitch enabled in your VPN app on the linux vpn machine to disable non v
 
 Use VPN for 4G on your phone! 
 
+To all software developers: Put your software checksum online!
+
 Protect your privacy!
