@@ -26,4 +26,4 @@ Protect your privacy! The invention of AI broke the Internet.
 
 Maybe the world is better off without network cards. Back to buying DVDs.
 
-Don't send selfie's to software companies!
+Don't send selfie's to software companies! I have no longer access to Instagram, read my github pages.
