@@ -25,3 +25,5 @@ Only one hacker with AI that has access to Facebook, Instagram, Microsoft or App
 Protect your privacy! The invention of AI broke the Internet.
 
 Maybe the world is better off without network cards. Back to buying DVDs.
+
+Don't send selfie's to software companies!
