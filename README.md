@@ -4,7 +4,7 @@
 
 The linux vpn gateway uses the router as gateway, the rest of the lan connected to the router uses the linux vpn servers ip address as gateway.
 
-Upnp must be disabled on the router. No external open ports on the linux gateway!!
+Upnp must be disabled on the router. No external open ports on the linux gateway!! Use netstat -pltn for an overview.
 
 For secure access to your network from the outside, use MESHNET. (With NordVPN meshnet breaks the linux gateway to the lan (it's a bug) so you must use MESHNET on a different machine on the lan. With ssh-tunneling on the MESHNET machine you can access all your hardware on your lan.
 
