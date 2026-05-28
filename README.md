@@ -27,3 +27,19 @@ Protect your privacy! The invention of AI broke the Internet.
 Maybe the world is better off without network cards. Back to buying DVDs.
 
 Don't send selfie's to software companies! I have no longer access to Instagram, read my github pages.
+
+Offtopic:
+
+- Use fail2ban when hosting ssh servers
+
+- Disable your NTP services, they expose you on the internet.
+
+$sudo systemctl stop systemd-timesyncd
+
+$sudo systemctl disable systemd-timesyncd
+
+$sudo systemctl mask systemd-timesyncd
+
+- Disable outgoing NTP traffic on the vpn gateway
+
+$sudo iptables -I OUTPUT -p tcp --dport 123 -j DROP
