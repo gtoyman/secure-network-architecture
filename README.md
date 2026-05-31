@@ -43,3 +43,6 @@ $sudo systemctl mask systemd-timesyncd
 - Disable outgoing NTP traffic on the vpn gateway
 
 $sudo iptables -I OUTPUT -p tcp --dport 123 -j DROP
+
+- It's good practise to use 1 vpn gateway for your phone's dns traffic and another vpn gateway for the rest of it's traffic. Same goes for your smarttv.
+
