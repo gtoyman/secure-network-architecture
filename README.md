@@ -32,15 +32,15 @@ Offtopic:
 
 - Use fail2ban when hosting ssh servers
 
-- Disable your NTP services, they expose you on the internet.
+- Disable your NTP services, they expose you on the internet. (OPTIONAL)
 
 $sudo systemctl stop systemd-timesyncd
 
 $sudo systemctl disable systemd-timesyncd
 
-$sudo systemctl mask systemd-timesyncd
+$sudo systemctl mask systemd-timesyncd 
 
-- Disable outgoing NTP traffic on the vpn gateway
+- Disable outgoing NTP traffic on the vpn gateway (OPTIONAL)
 
 $sudo iptables -I OUTPUT -p tcp --dport 123 -j DROP
 
