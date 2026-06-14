@@ -46,5 +46,3 @@ $sudo iptables -I OUTPUT -p tcp --dport 123 -j DROP
 
 - OR , you can run your own NTP server on the same server as the DNS gateway and redirect all clients to use this server. For camera's and other hardware you have to use wireshark to find out which ntp servers they are using and then redirect those NTP servers to your own NPT server using DNS (unbound). If your hardware uses hardcoded dns you have to redirect it to your own DNS server with iptables nat table , prerouting , then using DNAT to redirect the outgoing dns server to your own dns server. (ask chatgpt)
 
-- It's good practise to use 1 vpn gateway for your phone's dns traffic and ntp traffic and another vpn gateway for the rest of it's ip-traffic. Same goes for your smarttv and the rest of your lan clients.
-
