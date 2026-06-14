@@ -2,7 +2,7 @@
 
 ![Screenshot](https://github.com/sprokkel78/secure-network-architecture/blob/main/secure-network-architecture.png)
 
-The linux vpn gateway uses the router as gateway, the rest of the lan connected to the router uses the linux vpn servers ip address as gateway.
+All the linux servers 'and' lan clients are connected to the same router on the same LAN.
 
 Upnp must be disabled on the router. No external open ports on the linux gateway!! Use netstat -pltn for an overview.
 
