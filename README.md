@@ -1,6 +1,6 @@
 # secure-network-architecture
 
-![Screenshot](https://github.com/gotyman/secure-network-architecture/blob/main/secure-network-architecture.png)
+![Screenshot](https://github.com/gtoyman/secure-network-architecture/blob/main/secure-network-architecture.png)
 
 All the linux servers 'and' lan clients are connected to the same router on the same LAN.
 
