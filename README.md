@@ -4,7 +4,7 @@
 
 All the linux servers 'and' lan clients are connected to the same router on the same LAN.
 
-Upnp must be disabled on the router. No external open ports on the linux gateway!! Use netstat -pltn for an overview.
+Upnp must be disabled on the router. No external open ports on the linux gateways!! Use netstat -pltn for an overview.
 
 For secure access to your network from the outside, use MESHNET. (With NordVPN meshnet breaks the linux gateway to the lan (it's a bug) so you must use MESHNET on a different machine on the lan. With ssh-tunneling on the MESHNET machine you can access all your hardware on your lan.
 
@@ -44,5 +44,5 @@ $sudo systemctl mask systemd-timesyncd
 
 $sudo iptables -I OUTPUT -p tcp --dport 123 -j DROP
 
-- OR , you can run your own NTP server on the same server as the DNS gateway and redirect all clients to use this server. For camera's and other hardware you have to use wireshark to find out which ntp servers they are using and then redirect those NTP servers to your own NPT server using DNS (unbound). If your hardware uses hardcoded dns you have to redirect it to your own DNS server with iptables nat table , prerouting , then using DNAT to redirect the outgoing dns server to your own dns server. (ask chatgpt)
+- OR , you can run your own NTP server on the same server as the DNS gateway and redirect all clients to use this server. For camera's and other hardware you have to use wireshark to find out which ntp servers they are using and then redirect those NTP servers to your own NTP server using DNS (unbound). If your hardware uses hardcoded dns you have to redirect it to your own DNS server with iptables nat table , prerouting , then using DNAT to redirect the outgoing dns server to your own dns server. (ask chatgpt)
 
